@@ -1,6 +1,6 @@
 (defpackage xentralise
   (:use #:cl)
-  (:export '(#:connected-p #:start #:start-server #:stop #:stop-server #:evaluate-on-lisp)))
+  (:export #:connected-p #:start #:start-server #:stop #:stop-server #:evaluate-on-lisp))
 (in-package :xentralise)
 
 ;; blah blah blah.
